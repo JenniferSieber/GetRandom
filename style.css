@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 67.5%;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  background: rgb(51, 51, 51);
+  color: #fff;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.hidden {
+  display: none;
+}
+
+h1 {
+  cursor: pointer;
+  font-size: 3rem;
+  padding: 1rem 0;
+  width: 23rem;
+  text-align: center;
+  margin: .9rem;
+  border-radius: .5rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+h1:hover {
+  background: rgba(0, 0, 0, 0.35);
+}
+
+main {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img { 
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: .5rem;
+}
+
+.quote {
+  background: rgba(0, 0, 0, 0.35);
+  padding: 1rem;
+  text-align: center;
+}
+
+.quote-text {
+  font-size: 1.9rem;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+}
+
+footer {
+  background: rgba(0, 0, 0, 0.35);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+footer h4 {
+  margin: 1rem 0;
+  font-size: 1.1rem;
+}
+
+footer a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #fff;
+  padding: .5rem;
+}
+
+footer p {
+  font-size: 1rem;
+  text-align: center;
+  width: 30rem;
+}
+
+footer span {
+  display: block;
+}
+
+footer a:hover {
+  background: rgb(18, 18, 18);
+}
