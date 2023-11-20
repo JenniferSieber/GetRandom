@@ -3,6 +3,8 @@ SPA using API's for randomized advice and randomized, randomly sized images of K
 
 API's:
 
-https://placekeanu.com/
+Place Keanu API: https://placekeanu.com/
+
+Random Advice API: https://api.adviceslip.com/
 
 
